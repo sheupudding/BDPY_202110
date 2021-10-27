@@ -22,3 +22,11 @@ def print_muti(fix1, fix2, fix3,  **kwargs):
     print("profiles:")
     for k, v in kwargs.items():
         print(f"type={k}, value={v}")
+
+
+def callback1():
+    print("callback1!")
+
+
+def callback2():
+    print("call2 fire!")

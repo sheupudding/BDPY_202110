@@ -1,2 +1,5 @@
 # ignore venv folder
 /venv
+/origin
+/copy
+/images
