@@ -11,6 +11,7 @@ demoObj = [{'date': "2021-10-25", 'weather': "cloudy", 'mood': "nervous"}, {'dat
 # print(json.dumps(demoObj))
 # print([obj for obj in demoObj])
 # print([obj['date'] for obj in demoObj])
+
 str1 = '123456789'
 # subscript 語法 list[n] 0<=ele<n
 # print(str1[:5])  # 取得前5字元 12345
@@ -19,6 +20,13 @@ str1 = '123456789'
 # print(str1[2:6])  # from 2 to 5
 # print(str1[20:])  # from 20 to end
 # print(str1[-5:])  # last 5 elements
+
+l1 = list('abcde')  # => [a, b ,c ,d, e]
+edges = tuple(e for e in l1)
+
+# 確認格式
+# 1.if isinstance(obj, tuple):
+# 2.type(obj) => <map object at 0x000001E9AAAD0CC8>
 # ====================================================================
 
 # ■　demo2 calculate
