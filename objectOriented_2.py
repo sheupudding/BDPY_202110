@@ -1,3 +1,4 @@
+# ■ 父子類別繼承實作
 class Employee:
     gradeLevel = 6
 
